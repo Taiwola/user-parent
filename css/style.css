@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body{
+    background: white;
+    font-size: 18px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.875rem;
+    padding: 1.25rem 2.5rem;
+    background-color: rgb(154, 154, 249);
+}
+
+header nav {
+    justify-self: end;
+}
+
+header nav a {
+    color: #333;
+    margin-left: 1.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    gap: 20px;
+}
+
+section .card{
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    height: 50vh;
+    align-items: center;
+    border: 0.1px solid hsl(324, 14%, 93%);
+    border-radius: 5px;
+    box-shadow: 5px 4px 18px 5px rgba(223, 229, 240, 0.2);
+    padding: 10px 10px;
+}
+
+section .card .text{
+    width: 50vw;
+}
+
+section .card h2{
+    font-size: 30px;
+}
+
+section .card p{
+    color: hsl(208, 11%, 55%);
+    padding-top: 10px;
+}
+
+section .card .imgbx img{
+    width: 20vw;
+}
+
+.container{
+    transform: translateY(50%);
+    
+}
+
+.container .cardx{
+    width: 50rem;
+    background-color: white;
+}
+
+.container .cardx .textx h2{
+    margin-bottom: 30px;
+}
+
+.container .cardx .textx a{
+    text-decoration: none;
+    margin-top: 30rem;
+    color: black;
+    background-color: rgb(154, 154, 249);
+    border-radius: 15px;
+    margin: 20px;
+   padding: 20px 60px;
+   color: hsl(208, 11%, 55%);
+   transition: 0.5s;
+}
+
+.container .cardx .textx a:hover{
+    color: aliceblue;
+    box-shadow: 5px 4px 18px 5px rgba(154, 154, 249, 0.8);;
+}
+
+footer {
+    background-color: rgb(154, 154, 249);
+    padding: 3.125rem 3.125rem;
+    height: 20rem;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 10rem;
+}
